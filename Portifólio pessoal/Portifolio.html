@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólo-Vitor Nogueira dos Santos</title>
+</head>
+<body>
+    <!-- Navegação interna do site -->
+
+    <h1>Vitor Nogueira - Estudante de Técnologia da Informação</h1>
+    <hr> 
+    <p><a href="#sobre">Sobre</a></p>
+    <p><a href="#projetos">Projetos</a></p>
+    <p><a href="#contato">Contato</a></p>
+    <hr>
+   
+   <!-- Sobre mim -->
+
+    <h2 id="sobre"> Sobre mim</h2>
+     <img src="imagens/eu.jpg" alt="Eu" style="width: 150px; height: 150px; object-fit: cover;">
+
+     <p>Sou estudante do curso de Desenvolvimento de Sistemas do SENAI de Santo André</p>
+     <p>Possuo conhecimentos básicos das áreas de Banco de Dados, HTML, CSS e uso de Aruínos</p>
+     <p> </p>
+     <h3>Minhas Habilidades:</h3>
+     <p>HTML5 Semântico</p>
+     <p>CSS3 e responsividade</p>
+     <p>Gerenciamento e criação de tabelas e bancos de dados</p>
+     <hr>
+     <h2 id="projetos">Meus projetos</h2>
+
+<!-- Tabela dos meus projetos -->
+
+     <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Projeto</th>
+                <th>Técnologia</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Site sobre a série YOU</td>
+                <td>HTML5</td>
+                <td>Concluído</td>
+                <td><a href="https://github.com/VitorNogueira163/Projeto-filme">Ver projeto</a></td>
+            </tr>
+            <tr>
+                <td>Prática de estruturação de repositórios</td>
+                <td>GitHub, HTML e CSS</td>
+                <td>Em andamento</td>
+                <td><a href="https://github.com/VitorNogueira163/Projeto-Estacionamento">Ver projeto</a></td>
+            </tr>
+            <tr>
+                <td>Projeto em grupo - Lista de tarefas</td>
+                <td>JavaScript</td>
+                <td>Concluído</td>
+                <td><a href="https://github.com/VitorNogueira163/tarefa-em-grupo">Ver projeto</a></td>
+            </tr>
+        </tbody>
+     </table>
+     <hr>
+
+     <!-- formulários -->
+     <h2 id="contato">Entre em contato </h2>
+     <fieldset>
+     <legend>Dados do contato</legend>
+     <form action="processar.php" method="post">
+
+        <!-- Nome -->
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <!-- email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Assunto -->
+        <label for="assunto">Assunto:</label><br><br>
+        <select name="assunto" id="assunto">
+            <option value="">Selecione um assunto</option>
+            <option value="Oportunidade de trabalho">Oportunidade de trabalho</option>
+            <option value="Proposta de projeto">Proposta de projeto</option>
+            <option value="Contato geral">Contato geral</option>
+        </select><br><br>
+
+        <!-- Mensagem -->
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea name="mensagem" id="mensagem" rows="4" cols="70"></textarea><br>
+
+        <button type="submit">Enviar</button><br><br>
+</fieldset>
+<footer>
+        <p>&copy; 2026 Meta. Desenvolvido durante o curso do SENAI.</p>
+        <hr>
+     <p>
+        <a href="mailto:vitor.n.santos6@edu.senai.br">vitor.n.santos6@edu.senai.br</a>
+      <a href="tel:+5511912065303">(11) 91206-5303</a>
+</footer>
+
+    </p> 
+
+
+
+       
+        
+        
+     </form>
+</body>
+</html>
